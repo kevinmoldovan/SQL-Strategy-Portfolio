@@ -1,6 +1,9 @@
--- TITLE: 2015 Scion Fleet Schema Setup
--- GOAL: Initialize the service history table for fleet Opex tracking.
--- AUTHOR: Kevin Moldovan 
+/*
+ * TITLE: 2015 Scion Fleet Schema Setup
+ * GOAL: Initialize the service history table for fleet Opex tracking.
+ * AUTHOR: Kevin Moldovan
+ * DATE:   2026-04-15
+ */
 
 CREATE TABLE service_history (
  service_id int,

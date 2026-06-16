@@ -1,3 +1,10 @@
+/*
+ * TITLE:  SaaS Revenue Analytics
+ * GOAL:   Initialize subscription ledger schema and seed account data.
+ * AUTHOR: Kevin Moldovan
+ * DATE:   2026-06-15
+ */
+
 CREATE TABLE subscription_ledger (
     account_id int PRIMARY KEY,
     company_name varchar(100),
